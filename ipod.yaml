@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 532124739991.dkr.ecr.us-east-1.amazonaws.com/mahi:latest
+          image: pandev.azurecr.io/pandev:latest
           ports:
             - containerPort: 80
